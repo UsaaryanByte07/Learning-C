@@ -14,6 +14,14 @@ This folder contains various projects built while learning the C programming lan
    - **Key Concepts**: Variables, Random Number Generation, Conditional Statements, Loops, User Input, Input Validation, Functions (if used), Control Flow
    - **Status**: Complete
    - **Level**: Basic
+
+2. [**Project 2**](./Project%202/)
+   - **Name of Project**: Star Pattern Printing
+   - **Description**: The Program takes input from the user as number of rows and Accordingly prints the following star patterns
+                      which includes Right Angle Triangle(Left Aligned), Right Angle Triangle(Right Aligned), Inverted Right Angle Triangle(Left Aligned), Inverted Right Angle Triangle(Right Aligned), Pyramid, Inverted Pyramid, Diamond
+   - **key Concepts**: Nested Loops, User input, Input Validation
+   - **Status**: Complete
+   - **Level**: Basic
 ## 🔨 How to Run the Projects
 
 To run any project, navigate to the project directory and compile the C file(s) with a C compiler:
