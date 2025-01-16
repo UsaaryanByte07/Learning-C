@@ -18,10 +18,17 @@ This folder contains various projects built while learning the C programming lan
 2. [**Project 2**](./Project%202/)
    - **Name of Project**: Star Pattern Printing
    - **Description**: The Program takes input from the user as number of rows and Accordingly prints the following star patterns
-                      which includes Right Angle Triangle(Left Aligned), Right Angle Triangle(Right Aligned), Inverted Right Angle Triangle(Left Aligned), Inverted Right Angle Triangle(Right Aligned), Pyramid, Inverted Pyramid, Diamond
+                      which includes Right Angle Triangle(Left Aligned), Right Angle Triangle(Right Aligned), Inverted Right Angle Triangle(Left Aligned), Inverted Right Angle Triangle(Right Aligned), Pyramid, Inverted Pyramid, Diamond .
    - **key Concepts**: Nested Loops, User input, Input Validation
    - **Status**: Complete
    - **Level**: Basic
+
+3. [**Project 3**](./Project%203/)
+   - **Name of Project**: Multiplication Table
+   - **Description**: This C program generates multiplication tables based on user input. The user specifies the length of each     table and the number of tables they want to generate. For each table, the program prompts the user to provide a number, then  calculates the table by multiplying the number with integers from 1 to the specified length. The program then displays all the  multiplication tables in a tabular format, where each column corresponds to a table and each row represents a multiple.
+   - **key Concepts**: Nested Loops, Dynamic input, Multidimensional Arrays(2-D Arrays), Variable-Length Arrays (VLA), Formatted Output 
+   - **Status**: Complete
+   - **Level**: Moderate
 ## 🔨 How to Run the Projects
 
 To run any project, navigate to the project directory and compile the C file(s) with a C compiler:
