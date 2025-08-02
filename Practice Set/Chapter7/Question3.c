@@ -1,20 +1,21 @@
 #include <stdio.h>
 
 int main(){
-    /* 3. Write a program to create an array of 10 integers and store multiplication table of 
-    5 in it. */
-    int n;
+    /* 3. Write a program to create an array of n integers and store and print multiplication table of 
+    the number m in it. m and n are inputs from user.*/
+
+    int n,m;
     printf("Enter the Size of array: ");
     scanf("%d",&n);
     int arr[n];
+    printf("Enter the Number whose Multiplication Table is to be Stored: ");
+    scanf("%d",&m);
     for(int i = 0;i<n;i++){
-        int j = 5*(i+1);
-        arr[i] = j;
+        arr[i] = (i+1)*m;
     }
-    
-    printf("The Array is ");
+
     for(int i = 0;i<n;i++){
-        printf("%d ",*(arr+i));
+        printf("%d\t",arr[i]);
     }
     return 0;
 }

@@ -15,7 +15,7 @@ void display();
 int main(){
     sum(10,20);
     sum(30,40); //Function call
-    int b = sum(30,88); //30 and 80 are Arguments 
+    int b = sum(30,88); //30 and 88 are Arguments 
     printf("The value of b is %d\n",b);
     return 0;
 }
