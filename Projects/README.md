@@ -29,6 +29,15 @@ This folder contains various projects built while learning the C programming lan
    - **key Concepts**: Nested Loops, Dynamic input, Multidimensional Arrays(2-D Arrays), Variable-Length Arrays (VLA), Formatted Output 
    - **Status**: Complete
    - **Level**: Moderate
+
+4. [**Project 4**](./Project%204/)
+   - **Name of Project**: Text Encryption and Decryption (User Input)
+   - **Description**: This C program performs encryption and decryption of **user-inputted strings** using a Caesar cipher-like technique. The user enters a string and sets an encryption ID. Each character of the string is shifted by a fixed value (+12) and stored as an encrypted string. To decrypt, the user must re-enter the correct encryption ID (within 5 attempts). If successful, the original string is displayed.
+   - **Key Concepts**: Character Arrays (Strings), ASCII Manipulation, Caesar Cipher Logic, Functions, Loops, Conditional Statements, User Authentication (Simple)
+   - **Status**: Complete
+   - **Level**: Basic to Moderate
+   - **Note**: This project focuses on encrypting **text entered by the user** through the terminal. A future version will handle **file-based encryption and decryption**.
+
 ## 🔨 How to Run the Projects
 
 To run any project, navigate to the project directory and compile the C file(s) with a C compiler:
