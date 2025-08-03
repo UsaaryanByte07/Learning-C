@@ -16,10 +16,5 @@ int main(){
     slice(name,4,9,nameSlc);
     printf("%s",nameSlc);
 
-    /* In C, when you pass an array to a function, what actually gets passed is the pointer to the first element of the array, not a copy of the array itself. This means:
-
-    Inside the function, the array parameter (char str2[]) is essentially treated as a pointer to the original array (nameSlc in this case).
-    Any modifications made to the array inside the function affect the original array, because both the function and the calling code are working with the same memory location.
-    This is different from passing a basic data type (like int, float, etc.), where only a copy of the value is passed. */
     return 0;
 }

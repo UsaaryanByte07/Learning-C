@@ -24,5 +24,24 @@ int main(){
     printf("%d\n",strcmp("far","joke")); 
     printf("%d\n",strcmp("far","ajoke"));
     printf("%d\n",strcmp("joke","joke"));
+
+    /* What is a getchar() function?
+       If you type abc and press Enter, getchar() will return 'a' on the first call, 'b' on the second, 'c' on the third, and '\n' (newline) on the fourth. */
+    char ch1 = getchar();
+    printf("%c\n",ch1);
+    ch1 = getchar();
+    printf("%c\n",ch1);
+    while(ch1 != '\n'){
+        ch1 = getchar();
+        if( ch1 == '\n'){
+            break;
+        }
+        printf("%c\n",ch1);
+    }
+    char ch2 = getchar();
+    while(ch2 != '\n'){
+        printf("%c\n",ch2);
+        ch2 = getchar();
+    }
     return 0;
 }

@@ -13,11 +13,20 @@ int main() {
     scanf("%s", str1);
 
     // Clear the input buffer
-    while ((ch = getchar()) != '\n' && ch != EOF);
+    /* When you use scanf("%s", str1); and press Enter after your input, the newline character (\n) remains in the input buffer.
+       The next getchar() call reads this leftover newline, not a new character from the user.
+       This way the newline character leftover by scanf gets clear so that it doesn't cause problem when we take input for second string. */
+    /* getchar() returns EOF if there is no more input (for example, if the input stream is closed).
+       The loop stops if either a newline ('\n') or EOF is encountere */
+    while (ch != '\n' && ch != EOF){
+        ch = getchar();
+    }
 
     
     printf("Enter the second string (character by character, press Enter to finish): ");
-    while ((ch = getchar()) != '\n') { //A while loop reads characters one by one using getchar() until a newline character (\n) is detected.
+    //A while loop reads characters one by one using getchar() until a newline character (\n) is detected.
+    while (ch != '\n') {
+        ch = getchar();
         str2[i++] = ch;
     }
     str2[i] = '\0';  //The string is manually null-terminated at the end 
