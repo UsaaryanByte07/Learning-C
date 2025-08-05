@@ -16,7 +16,10 @@ int main(){
     printf("%d\n",num);
 
     char name[80];
-    fscanf(ptr,"%c",name); //to get a character we use fgetc and to write a character in file we use fputc
+    fscanf(ptr,"%c",name); 
+    //to get a character we use fgetc and to write a character in file we use fputc
+    /* fscanf(ptr, "%c", name); is not the right way to read a single character into a char array.
+       fscanf with %c expects a pointer to a char, not a char array. */
     printf("%c\n",name);
 
     }
