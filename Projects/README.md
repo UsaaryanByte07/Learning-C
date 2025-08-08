@@ -38,6 +38,14 @@ This folder contains various projects built while learning the C programming lan
    - **Level**: Basic to Moderate
    - **Note**: This project focuses on encrypting **text entered by the user** through the terminal. A future version will handle **file-based encryption and decryption**.
 
+5. [**Project 5**](./Project%205/)
+   - **Name of Project**: Text File Encryption and Decryption (File I/O)
+   - **Description**: This C program performs encryption and decryption of **text files** using an XOR cipher. The user provides the name of a `.txt` file. The program encrypts it by applying an XOR operation with a randomly generated key and saves the result in a new file. It then deletes the original file and prompts the user to enter the correct encryption key to decrypt the file. On successful entry, the original content is restored into a new decrypted file.
+   - **Key Concepts**: File Handling (`fopen`, `fgetc`, `fputc`), XOR Encryption, Random Number Generation, Input Validation, String Manipulation, Conditional Loops, Secure File Deletion
+   - **Status**: Complete
+   - **Level**: Moderate
+   - **Note**: This is the **file-based** extension of Project 4 and demonstrates more practical usage of encryption on actual files.
+
 ## 🔨 How to Run the Projects
 
 To run any project, navigate to the project directory and compile the C file(s) with a C compiler:
