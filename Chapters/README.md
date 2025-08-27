@@ -52,6 +52,10 @@ This folder contains code and notes for each chapter I’m studying in C program
 - **Topics Covered**: malloc, calloc, free, realloc, Stack vs Heap  
 - **Code Files**: [65_Malloc.c](./chapters/Chapter%2011(Dynamic%20Memory%20Allocation)/65_Malloc.c), [66_calloc.c](./chapters/Chapter%2011(Dynamic%20Memory%20Allocation)/66_calloc.c), [67_free.c](./chapters/Chapter%2011(Dynamic%20Memory%20Allocation)/67_free.c), [68_realloc.c](./chapters/Chapter%2011(Dynamic%20Memory%20Allocation)/68_realloc.c)
 
+### Chapter 12: Random Functions
+- **Topics Covered**: rand, srand, time-based seeding, generating random numbers in a range  
+- **Code Files**: [69_rand_srand.c](./Chapter%2012(Random%20Functions)/69_rand_srand.c), [70_Using_time_with_srand.c](./Chapter%2012(Random%20Functions)/70_Using_time_with_srand.c), [71_generating_random_numbers_in_a_range.c](./Chapter%2012(Random%20Functions)/71_generating_random_numbers_in_a_range.c)
+
 ---
 
 ## More Chapters Coming Soon
